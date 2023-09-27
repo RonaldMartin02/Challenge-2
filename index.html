@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>Ronald's Portfolio</title>
 </head>
+
 <body>
     <header>
-        <H1>Lernantino</H1>
-        <img src="./Assets/Img/server.jpg" alt="">
+        <H1 id="SiteName">Ronald's Portfolio</H1>
+        
         <nav>
-            
-                <a href="#About-Me">About Me</a>
-                <a href="#Work">Work</a>
-                <a href="#Contact-Me">Contact Me</a>
-                <a href="#Resume">Resume</a>
-            
+
+            <a href="#About-Me">About Me</a>
+            <a href="#Work">Work</a>
+            <a href="#Contact-Me">Contact Me</a>
+            <a href="#Resume">Resume</a>
+
         </nav>
+        <img src="./Assets/Img/server.jpg" alt="">
     </header>
     <main>
         <section id="About-Me">
-            <h1>About Me</h1>
-                <p>Hello this is a paragraph about me.</p>
+            <aside>
+                <h1>About Me</h1>
+            </aside>
+
+            <p>Hello this is a paragraph about me.</p>
         </section>
         <section id="Work">
             <div class="container">
-            <aside>
-                <h1>Work</h1>
-            </aside> 
+                <aside>
+                    <h1>Work</h1>
+                </aside>
                 <div class="margin">
                     <div class="card-row">
-                    <img src="./Assets/Img/Ferret.jpg" alt="">
+                        <img src="./Assets/Img/Ferret.jpg" alt="">
+                    </div>
+                    <div class="card-column">
+                        <figure class="card">
+                          <img src="./Assets/Img/Fiber-Wires.jpg" alt="">  
+                        </figure>
+                        
+                        <img src="./Assets/Img/Honey-Bee.jpg" alt="">
+                    </div>
+                    <div class="card-column">
+                        <img src="./Assets/Img/laptop-code.jpg" alt="">
+                        <img src="./Assets/Img/fish.jpg" alt="">
+                        <div class="bottomleft"></div>
+                    </div>
                 </div>
-                <div class="card-column">
-                    <img src="./Assets/Img/Fiber-Wires.jpg" alt="">
-                    <img src="./Assets/Img/Honey-Bee.jpg" alt="">
-                </div>
-                <div class="card-column">
-                    <img src="./Assets/Img/laptop-code.jpg" alt="">
-                    <img src="./Assets/Img/fish.jpg" alt="">
-                    <div class="bottomleft">Bottom Left</div>
-                </div>
-                </div>
-                
-</div>
+
+            </div>
         </section>
         <section id="Contact-Me">
             <div class="container">
-                <h1>Contact me</h1>
-            <ul>
-                <li><a href="#">555-555-5555</a></li>
-                <li><a href="#">Email</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Spotify</a></li>
-            </ul>
+                <aside>
+                    <h1>Contact me</h1>
+                </aside>
+                <ul>
+                    <li><a href="#">555-555-5555</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Spotify</a></li>
+                </ul>
             </div>
-            
+
         </section>
         <!--<section id="Resume">
             <h1>Resume</h1>
@@ -66,4 +77,5 @@
         </section>-->
     </main>
 </body>
+
 </html>
