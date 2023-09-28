@@ -1,6 +1,6 @@
 * {
   font-family: 'Times New Roman', Times, serif;
-
+font-size: 1em;
 }
 body {
   background-color: lightblue;
@@ -9,18 +9,32 @@ header {
   background-color: #13293d;
   border: 50px;
   opacity: 1;
+  width: 100%;
+}
+#header-img img{
+width: 100%;
+
 }
 nav {
+  float: right;
   display: flex;
   align-items: end;
 
 }
 nav a {
-  color: #0084ff;
-  border-bottom: 1px solid #0084ff;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+}
+a p{
+  color: #0084ff;
+  border-bottom: 1px solid #0084ff;
+  width: fit-content;
+}
+a p.contact{
+  color: #00ff15;
+  border-bottom: 1px solid #0084ff;
+  width: fit-content;
 }
 #SiteName {
   float: left;
@@ -34,4 +48,62 @@ nav a {
   nav {
   flex-direction: column; 
   }
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+.title-container {
+  min-height: 100%;
+  width: 25%;
+  display: flex;
+  border-right: 2px solid #13293d;
+  padding: 10px;
+  text-align: right;
+  font-size: 2em;
+}
+.content-container {
+  width: 75%;
+  display: flex;
+  padding: 10px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.content-container#images{
+  justify-content: center;
+  width: 75%;
+  display: flex;
+}
+.img-container{
+  width: 100%;
+  padding: 10px;
+}
+
+.wide-img-container#ferret{
+  width: 50%;
+  border: 2px solid #13293d;
+  margin: 10px;
+  opacity: 0.5;
+}
+.img-container img{
+  width: 100%;
+  border: 2px solid #13293d;
+  margin: 10px;
+  opacity: 0.5;
+}
+#Contact-Me li{
+  display: inline;
+  text-align: center;
+}
+section img:hover {
+  opacity: 1;
 }
