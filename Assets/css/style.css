@@ -110,7 +110,7 @@ li p.contact {
   width: 100%;
   padding: 10px;
 }
-
+/* adds labels to the pictures in the work section */
 .bottomleft {
   position: absolute;
   bottom: 40px;
@@ -119,7 +119,7 @@ li p.contact {
   background-color: var(--dblue);
   padding: 10px;
 }
-
+/* adds label to the header img */
 .bottomright {
   position: absolute;
   bottom: 8px;
@@ -128,15 +128,7 @@ li p.contact {
   background-color: var(--lblue);
   padding: 10px;
 }
-/* .bottomright {
-  position: absolute;
-  top: 300px;
-  right: 20px;
-  font-size: 18px;
-  background-color: var(--lblue);
-  padding: 10px;
-  z-index: 1;
-} */
+/* adds borders to work pictures */
 .img-container img {
   width: 100%;
   border: 2px solid var(--dblue);

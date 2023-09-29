@@ -32,7 +32,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Deployment
 
-[Link to the website](https://ronaldmartin02.github.io/Challenge-1/)
+[Link to the website](https://https://ronaldmartin02.github.io/Ronalds-portfolio/)
  ![Image of my Website Deployed](./Assets/Img/challenge_2_Deployment.png)
 
 ## Usage
